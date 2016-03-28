@@ -170,16 +170,22 @@ img {
   padding-bottom: 60px;
   border-bottom: 1px solid #e3e3e3;
 }
-/* line 61, ../sass/partials/_page.scss */
+/* line 58, ../sass/partials/_page.scss */
+.slideshow .container .slide .carousel-indicators {
+  left: 38%;
+  margin-left: 0;
+  text-align: right;
+}
+/* line 72, ../sass/partials/_page.scss */
 .slideshow .container .slideshow-buttons ul {
   margin-bottom: 0;
   margin-top: 50px;
 }
-/* line 64, ../sass/partials/_page.scss */
+/* line 75, ../sass/partials/_page.scss */
 .slideshow .container .slideshow-buttons ul li {
   display: inline-block;
 }
-/* line 66, ../sass/partials/_page.scss */
+/* line 77, ../sass/partials/_page.scss */
 .slideshow .container .slideshow-buttons ul li a {
   padding: 15px 50px;
   background-color: #0e76bc;
@@ -188,7 +194,7 @@ img {
   border-radius: 3px;
   border-bottom: 4px solid #035a95;
 }
-/* line 73, ../sass/partials/_page.scss */
+/* line 84, ../sass/partials/_page.scss */
 .slideshow .container .slideshow-buttons ul li a:hover {
   background-color: #0666a7;
 }
