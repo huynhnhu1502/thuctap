@@ -67,6 +67,12 @@
             padding: 15px 50px;
             background-color: #0e76bc;
             color: $link-white-color;
+            text-transform: uppercase;
+            border-radius: 3px;
+            border-bottom: 4px solid #035a95;
+            &:hover{
+              background-color: #0666a7;
+            }
           }
         }
       }

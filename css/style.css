@@ -184,4 +184,11 @@ img {
   padding: 15px 50px;
   background-color: #0e76bc;
   color: #fff;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border-bottom: 4px solid #035a95;
+}
+/* line 73, ../sass/partials/_page.scss */
+.slideshow .container .slideshow-buttons ul li a:hover {
+  background-color: #0666a7;
 }
