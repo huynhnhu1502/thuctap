@@ -1,0 +1,65 @@
+/*------------------------------------------------------------------
+[1. Body]
+*/
+/* Typography */
+
+body {
+	color: $body-color;
+	font: {
+		family: $font-body;
+		size: $body-font-size;
+	}
+	line-height: 1.6;
+	background: url(../images/bg-body.jpg) 0 0 repeat #f0f0f0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: $black-color;
+	line-height: 1.1;
+	margin: 0 0 15px;
+}
+h1 {
+	font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+}
+h1 {
+	font-size: $fontsize-30;
+}
+h2 {
+	font-size: $fontsize-24;
+	font-family: $font-secondary;
+}
+h3 {
+	font-size: $fontsize-20;
+	font-family: $font-secondary;
+}
+
+a {
+	color: $link-color;
+	outline: none;
+	&:hover, &:focus {
+		color: $black-color;
+		outline: none;
+		text-decoration: none;
+	}
+}
+p, ul, ol {
+	margin-bottom: 20px;
+}
+address {
+	line-height: 1.7;
+}
+label {
+	font-weight: 100;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.form-text, .form-select, .form-textarea{
+	border: 1px solid #d1d1d1;
+	padding: 10px;
+}
+
+
