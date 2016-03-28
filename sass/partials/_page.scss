@@ -1,52 +1,75 @@
-/* blog */
-.blog-item{
-	background: $white-color;
-	padding: 20px;
-	margin-bottom: 30px;
-	.field-image{
-		margin: -20px -20px 20px -20px;
-	}
-	h2{
-		margin-bottom: 5px;
-		a{
-			color: $black-color;
-			&:hover, &:focus{
-				color: $link-color;
-			}
-		}
-	}
-	.submited{
-		color: $grey-color;
-		font-size: $fontsize-13;
-		margin-bottom: 15px;
-	}
-	.view-footer{
-		border-top: 1px solid #e8e8e8;
-		padding-top: 20px;
-		font-size: $fontsize-12;
-		a{
-			color: $grey-color;
-			display: inline-block;
-			margin-right: 10px;
-			&:hover, &:focus{
-				color: $link-color;
-			}
-			.fa{
-				margin-right: 2px;
-			}
-			.fa-comment{
-				line-height: 1;
-			}
-		}
-		
-		.btn-theme{
-			color: $white-color;
-			margin-right: 0;
-			&:hover, &:focus{
-				color: $white-color;
-			}
-		}
-	}
+.headline{
+  background-color: #0e76bc;
+  .container{
+    ul{
+      li{
+        font-size: $fontsize-13;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        a{
+          color: $link-white-color;
+          padding-top: 0;
+          padding-bottom: 0;
+          border-right: 1px solid #fff;
+          line-height: 1;
+          &:hover{
+            background-color: #0e76bc;
+            text-decoration: underline;
+          }
+        }
+        p{
+          color: $link-white-color;
+          margin: 0;
+          line-height: 1;
+          padding-left: 14px;
+          i{
+            margin-right: 4px;
+          }
+        }
+      }
+      .active{
+        background-color: #e2605a;
+        border-bottom: 1px solid #e2605a;
+        a{
+          border-right: none;
+          &:hover{
+            background-color: #d5524c;
+            text-decoration: none;
+            //padding-top: 14px;
+            //padding-bottom: 14px;
+          }
+        }
+        &:hover{
+          background-color: #d5524c;
+          //padding-top: 0;
+          //padding-bottom: 0;
+        }
+      }
+    }
+  }
+}
 
+.slideshow{
+  .container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #e3e3e3;
+    .slide{
+    }
 
+    .slideshow-buttons{
+      ul{
+        margin-bottom: 0;
+        margin-top: 50px;
+        li{
+          display: inline-block;
+          a{
+            padding: 15px 50px;
+            background-color: #0e76bc;
+            color: $link-white-color;
+          }
+        }
+      }
+    }
+  }
 }
