@@ -241,3 +241,20 @@
   }
 }
 
+.panel-second{
+  border-top: 1px solid #e3e3e3;
+  background-color: #ececec;
+  .container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  h2{
+    font-size: $fontsize-18;
+    span{
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      color: #070731;
+    }
+
+  }
+}

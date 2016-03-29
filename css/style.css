@@ -384,3 +384,24 @@ img {
 .slider .img-responsive:hover {
   border-color: #aaaaaa;
 }
+
+/* line 244, ../sass/partials/_page.scss */
+.panel-second {
+  border-top: 1px solid #e3e3e3;
+  background-color: #ececec;
+}
+/* line 247, ../sass/partials/_page.scss */
+.panel-second .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* line 251, ../sass/partials/_page.scss */
+.panel-second h2 {
+  font-size: 1.285em;
+}
+/* line 253, ../sass/partials/_page.scss */
+.panel-second h2 span {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  color: #070731;
+}
