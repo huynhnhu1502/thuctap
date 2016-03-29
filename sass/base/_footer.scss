@@ -1,0 +1,39 @@
+.footer{
+  background-color: #202121;
+  color: #999;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  .logo-footer{
+    float: left;
+    margin-right: 15px;
+  }
+  .copyright{
+    font-size: 12px;
+    padding-top: 15px;
+    float: left;
+    p{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  .footer-menu{
+    float: right;
+    ul{
+      margin-top: 0;
+      margin-bottom: 0;
+      li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+        padding-top: 10px;
+        a{
+          color: #999;
+          font-size: 13px;
+          &:hover, &:focus{
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
